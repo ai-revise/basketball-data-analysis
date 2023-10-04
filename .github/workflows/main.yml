@@ -9,4 +9,4 @@ jobs:
       uses: actions/checkout@v2
 
     - name: CodeQL-ML
-      uses: ai-revise/codeql-ml
+      uses: ai-revise/codeql-ml@ml
