@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: CodeQL-ML
-      uses: ai-revise/codeql-ml@v1.1.1
+      uses: ai-revise/codeql-ml@v1.1.2
       with:
        workspace: ${{ github.workspace }}
 
